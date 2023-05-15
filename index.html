@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>quiz</title>
+</head>
+<body>
+  <p id="countdown">01:00 minute to complete this quiz</p>
+
+
+    <div id ="intro">
+        <h1 id="welcomeEle">Welcome to my Quiz</h1>
+        <p id="rules-one">Hi! My name is Swathi. Here is my take on a simple quiz on javascript. You have a total of 1 minute to answer 5 basic questions</p><br>
+        <p id="rules-two">Warning! Every wrong answer will cost you 15 seconds!</p>
+        <h2 id = "headerText">What is your name</h2> <br>
+        
+    </div>
+    <div id = "greetingInput">
+        <input id="userNam"> <br><br>
+        <button onclick="greeting()">submit</button>
+    </div>
+
+    <p id="grades"></p>
+
+
+    <div id="quiz">
+        <h3 id = "question"></h3>
+        <div id="answerA" onClick="functionA()" class ="options"></div>
+        <div id="answerB" onclick="functionB()" class ="options"></div>
+        <div id="answerC" onclick="functionC()" class ="options"></div>
+        <div id="answerD" onclick="functionD()" class ="options"></div><br>
+
+        <div id="qn1Button" onclick="submitQ1()"><button>Submit Q1</button></div>
+        <div id="qn2Button" onclick="submitQ2()"><button>Submit Q2</button></div>
+        <div id="qn3Button" onclick="submitQ3()"><button>Submit Q3</button></div>
+        <div id="qn4Button" onclick="submitQ4()"><button>Submit Q4</button></div>
+        <div id="qn5Button" onclick="submitQ5()"><button>Submit Q5</button></div>
+       
+    </div>
+    <div id="card">
+        <h4>Previous Player's Name: <span id="saved-name"></span></h4>
+      <h4>Previous Player's score: <span id="saved-score"></span></h4>
+      <h4><button id="save">SAVE</button></h4>
+    </div>
+  
+ <script src="./script.js"></script>
+
+</body>
+</html>
