@@ -24,7 +24,7 @@ If the user is not able to complete answering the questions within the time allo
 ### Screenshots of the Quiz
 
 ![Java-Quiz-IntroPage](https://github.com/SwathiVinod19/Java-Quiz/assets/129353324/e54b8612-1576-41e0-bf4b-2c2e599862bd)
-An screenshot of how the opening page looks 
+A screenshot of how the opening page looks 
 
 
 ![Question-example](https://github.com/SwathiVinod19/Java-Quiz/assets/129353324/1187946d-4c21-42bd-ac13-5a636fa5497a)
@@ -35,7 +35,7 @@ An example of the questions
 How the scores are shown
 
 ![responsive](https://github.com/SwathiVinod19/Java-Quiz/assets/129353324/c98cbead-a2e1-414e-8348-aa90a6784c62)
-I used css/media scrren to make the quiz webpage responsive and has has attractive display for smaller devices
+I used css/media screen to make the quiz webpage responsive and has has attractive display for smaller devices.
 
 
 #### Link to the deployed page
