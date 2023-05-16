@@ -40,7 +40,7 @@ I used css/media screen to make the quiz webpage responsive and has has attracti
 
 #### Link to the deployed page
 
-
+https://swathivinod19.github.io/Java-Quiz/
 
 ##### Acknowledgements, References and My experience working on this challenge
 This challenge was really stressful for me. I had a tough time starting with it. I used 5 questions from the w3 schools javascript quiz. I took extra tutoring and watched class videos to brush up the concepts taught in class.
