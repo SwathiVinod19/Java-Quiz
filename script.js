@@ -31,7 +31,7 @@ let card = document.querySelector("#card");
 let qnChoice = "";
 let indexNumber = 0;
 let score = 0;
-
+let result= document.querySelector("#result");
 
 //Array of questions
 
@@ -158,10 +158,12 @@ function functionD(){
 
 function submitQ1() {
     if (qnChoice == "a"){
-        score += 1;    
+        score += 1;  
+        result.innerHTML = "Q1: Correct answer!"  
     }
     else{
     time -= 15;
+    result.innerHTML = 'Q1:Incorrect answer'
     }
     indexNumber += 1;
     reset();
@@ -171,10 +173,12 @@ function submitQ1() {
 
 function submitQ2() {
     if (qnChoice == "d"){
-        score += 1;      
+        score += 1;   
+        result.innerHTML = "Q2: Correct answer!"     
     }
     else{
         time -= 15;
+        result.innerHTML = "Q2: Incorrect answer"
         }
     
     indexNumber += 1;
@@ -187,10 +191,12 @@ function submitQ2() {
 function submitQ3() {
     if (qnChoice == "c"){
         score += 1; 
+        result.innerHTML = "Q3: Correct answer!" 
         
     }
     else{
         time -= 15;
+        result.innerHTML = "Q3: Inorrect answer"
         }
     
     indexNumber += 1;
@@ -203,10 +209,12 @@ function submitQ3() {
 
 function submitQ4() {
     if (qnChoice == "a"){
-        score += 1;     
+        score += 1;  
+        result.innerHTML = "Q4: Correct answer!"   
     }
     else{
         time -= 15;
+        result.innerHTML = "Q4: Inorrect answer!"
         }
     
     indexNumber += 1;
@@ -222,6 +230,7 @@ function submitQ4() {
 function submitQ5() {
     if (qnChoice == "d" && time > 0){
         score += 1; 
+        result.innerHTML = "Q5: Correct answer!"
         
     }
     else if(time == 0){
